@@ -144,7 +144,7 @@ header {
 }
 
 nav {
-
+  
 }
 
 nav::after {
@@ -172,7 +172,13 @@ nav li {
   font-family: 'Roboto Slab', serif;
   font-size: 100%;
   font-weight: 700;
+  width: 24.95%;
+  max-width: 110px;
+  border-bottom: none;
+  display: inline-block;
 }
+
+
 
 nav a {
   text-decoration: none;
@@ -214,194 +220,17 @@ nav a:hover {
 .group:after { clear:both;}
 .group { zoom:1; /* For IE 6/7 */ }
 
-.span_2_of_2, .span_1_of_2, .span_3_of_3, .span_2_of_3, .span_1_of_3 {
+.span_1_of_2 {
+  width: 100%;
+}
+.span_2_of_2{
   width: 100%;
 }
 
 
- /* ==========================================================================
-    SECTIONS
-    ========================================================================== */
-
-.welcome {
-  background: #F2F2F2;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-}
-
-.welcome::after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-
-.history {
-  background: #871719;
-  background-image: url('../img/louies-bg-making-red.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-  color: #F2F2F2;
-}
-
-.history::after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-
-.email-list {
-  background: #E8D4B4;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-}
-
-.email-list::after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-
-.menu {
-  background: #F2F2F2;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-}
-
-.menu::after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-
-.drinks {
-  background: #871719;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-  color: #FFFFFF;
-}
-
-.drinks::after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-
-.contact {
-  background: #00703A;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-  color: #FFFFFF;
-}
-
-.contact::after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-
-.map {
-  background: #F2F2F2;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  margin: 0;
-}
-
-.map::after {
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-
-
-footer {
-  background-color: #333333;
-  color: #F2F2F2;
-}
-
-footer::after{
-  visibility: hidden;
-  display: block;
-  content: "";
-  clear: both;
-  height: 0;
-}
-
-.white {
-  color: #FFFFFF!important;
-}
-
-.red {
-  color: #871719!important;
-}
-
-.yellow {
-  color: #FFC400;
-}
-
-.text-left {
-  text-align: center;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: center;
-}
-
-.spec-pie {
-  text-align: center;
-  font-size: 100%;
-  width: 80%;
-  margin: 0 auto;
-}
-
-.spec-pie-photo {
-  margin-bottom: 2em;
-}
-
-.small-txt {
-  font-size: 70%;
-}
-
-.menu-price {
-  color: #871719;
-  font-family: 'Roboto Slab', serif;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.menu-head {
-  text-align: left;
-}
+/* ==========================================================================
+  Buttons
+  ========================================================================== */
 
 a.hero-button:link {
   font-size: 140%;
@@ -417,118 +246,3 @@ a.hero-button:hover {
   background-color: #871719;
 }
 
-/* ==========================================================================
-   FORMS
-   ========================================================================== */
-
-form {
-
-}
-
-input {
-  width: 90%;
-  display: block;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  height: 36px;
-  padding: 8px;
-  margin: 10px 0px;
-  font-size: 100%;
-}
-
-label {
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-textarea#comment-field {
-  display: block;
-  border: 1px solid #333333;
-  border-radius: 3px;
-  height: 200px;
-  padding: 8px;
-  margin: 10px 0px;
-  font-size: 100%;
-  width: 100%;
-}
-
-button {
-  background-color: #FFC400;
-  color: #871719;
-  font-family: 'Roboto Slab', serif;
-  font-size: 80%;
-  text-transform: uppercase;
-  font-weight: 700;
-  height: 40px;
-  width: 100%;
-}
-
-input.button:hover {
-  background: #fff;
-  color: #09C;
-}
-
-
-/* ==========================================================================
-   MEDIA QUERIES
-   ========================================================================== */
-
-
-@media screen and (min-width: 994px) {
-
-  nav {
-
-  }
-
-  nav ul {
-      text-align: right;
-      padding-top: 60px;
-  }
-
-  nav li {
-    width: 24.95%;
-    max-width: 110px;
-    border-bottom: none;
-  }
-
-  nav li {
-    display: inline-block;
-  }
-
-  .col {
-    margin: 1% 0 1% 0%;
-  }
-
-  /*  GRID OF TWO  */
-  .span_2_of_2 {
-  	width: 100%;
-  }
-  .span_1_of_2 {
-  	width: 49.2%;
-  }
-
-  /*  GRID OF THREE  */
-  .span_3_of_3 {
-    width: 100%;
-  }
-  .span_2_of_3 {
-    width: 66.13%;
-  }
-  .span_1_of_3 {
-    width: 32.26%;
-  }
-
-  .text-left {
-    text-align: left;
-  }
-
-  .text-center {
-    text-align: center;
-  }
-
-  .text-right {
-    text-align: right;
-  }
-
-
- }
