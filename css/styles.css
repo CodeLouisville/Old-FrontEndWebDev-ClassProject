@@ -144,7 +144,7 @@ header {
 }
 
 nav {
-  
+  margin-top:4em;
 }
 
 nav::after {
@@ -221,7 +221,7 @@ nav a:hover {
 .group { zoom:1; /* For IE 6/7 */ }
 
 .span_1_of_2 {
-  width: 100%;
+  width: 48.2%;
 }
 .span_2_of_2{
   width: 100%;
@@ -245,4 +245,3 @@ a.hero-button:hover {
   border-color: #871719;
   background-color: #871719;
 }
-
