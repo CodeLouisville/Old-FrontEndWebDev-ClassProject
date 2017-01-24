@@ -330,7 +330,6 @@ input.button:hover {
     font-weight: 700;
     height: 40px;
     width: 18%;
-    /* max-width: 180px; */
     margin: 0 0 10px 0;
     float: right;
 }
