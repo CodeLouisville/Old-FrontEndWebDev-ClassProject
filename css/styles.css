@@ -77,6 +77,10 @@ p {
   font-weight: 300;
 }
 
+p.small-txt {
+  font-size: 80%;
+}
+
 table {
   font-size:120%;
   line-height: 1.6;
@@ -334,3 +338,8 @@ input.button:hover {
 .nwsltr-btn:hover {
   background-color: purple;
 }
+
+.nwsltr {
+  background-color: #E8D5B5;
+}
+
