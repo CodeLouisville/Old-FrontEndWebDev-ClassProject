@@ -77,6 +77,10 @@ p {
   font-weight: 300;
 }
 
+p.small-txt {
+  font-size: 80%;
+}
+
 table {
   font-size:120%;
   line-height: 1.6;
@@ -246,3 +250,53 @@ a.hero-button:hover {
   background-color: #871719;
 }
 
+/* ==========================================================================
+   FORMS
+   ========================================================================== */
+
+form {
+
+}
+
+input {
+  width: 90%;
+  display: block;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  height: 36px;
+  padding: 8px;
+  margin: 10px 0px;
+  font-size: 100%;
+}
+
+label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+textarea#comment-field {
+  display: block;
+  border: 1px solid #333333;
+  border-radius: 3px;
+  height: 200px;
+  padding: 8px;
+  margin: 10px 0px;
+  font-size: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: #FFC400;
+  color: #871719;
+  font-family: 'Roboto Slab', serif;
+  font-size: 80%;
+  text-transform: uppercase;
+  font-weight: 700;
+  height: 40px;
+  width: 100%;
+}
+
+input.button:hover {
+  background: #fff;
+  color: #09C;
+}
