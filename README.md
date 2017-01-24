@@ -38,7 +38,16 @@ refer to the site.pdf file included in this repo to see what the target style sh
 3. Add a subheading of "Join Louie's List today, and get a free slice!".
 4. Add a form with a lable of "Email", an email input, and a "Join Now" submit button.
 5. Add a paragraph with the class "small-txt" below the input/button.  Style this paragraph so that it has a font-size of 80%;
+6. Style the label, input, and button according to the image in site.pdf.  See hints below.
 
+###Hints:
+Height of input and button is 40px;
+
+Input border is: 1px solid #c0af8e;
+Input border radius is 3px;
+
+font for button is 'Roboto Slab' and is 80% of the base font size.  The font weight is 700.
+Background color of button is #871719;
 ##Fix Clearing Issues with Floats
 
 The col class assings a `property: value` of `float: left` to the elements it's applied to.
