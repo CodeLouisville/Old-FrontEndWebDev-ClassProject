@@ -341,3 +341,17 @@ input.button:hover {
 .nwsltr {
   background-color: #E8D5B5;
 }
+
+/* ==========================================================================
+   Section Details
+   ========================================================================== */
+
+.history {
+    background: #871719;
+    background-image: url(../img/louies-bg-making-red.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    color: #F2F2F2;
+}
