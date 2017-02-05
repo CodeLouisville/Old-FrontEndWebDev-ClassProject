@@ -1,34 +1,9 @@
 
 var menuData = 'https://cdn.rawgit.com/Bumbolio/567f8ed0ac99703fbbe24a64638fcc81/raw/9a0930b07e6b746a76e058ac956e5528aedcfacf/menu.json';
 
-$.ajax(menuData).done(function(data) {
-
-    //Find exisiting food container
-    var foodContainer = $('#foodcontainer');
-
-    //Create an empty array to hold a pair of menu tables.  
-    var menuRow = [];
-
-    data.Food.forEach(function(foodSection, index){      
-        var table = buildTable(foodSection);
-        menuRow.push(table);
-
-        if(!(index % 2 === 0)) {
-            var sectionGroup = $('<div class="section group">');
-            sectionGroup.append(menuRow);
-        
-            //Add my section group div to my food container div.
-            foodContainer.append(sectionGroup);
-            
-            //Clear my pair of menus since they have been appended to a section group.  
-            menuRow = [];
-        }     
-    });
- 
-});
+//Add your code here
 
 
-//May provide this part.
 function buildTable(section) {
    var table = $('<table class="menu">');
    table.append('<thead><tr><th colspan="2"><h4 class="menu-head red">' + section.name + '</h4></th></tr></thead>');
