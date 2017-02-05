@@ -72,3 +72,45 @@ Time for a history lesson!  Let's complete the History Section of the site.
 
 Hint: Check out this great tutorial on how to get images to fill the background of an element:  
 https://css-tricks.com/perfect-full-page-background-image/
+
+#Week 4 Challenge
+
+Our restaurant's menu is stored in a database on a server.  We need to retrieve the menu data and present it on the website.  
+
+1.) Include the `app.js` file located in the `js` folder to the index.html file.
+2.) `App.js` includes a function named `buildTable` which takes an object that looks like the following
+    ```{
+      "name": "Salads",
+      "items": [
+        {
+          "name": "Louie's Chef Salad",
+          "price": 7.5
+        },
+        {
+          "name": "Caesar Salad",
+          "price": 9
+        },
+        {
+          "name": "Garden Salad",
+          "price": 6.25
+        },
+        {
+          "name": "Side Salad",
+          "price": 3.5
+        }
+      ]
+    }```
+    and returns an html `<table>` with the the data properly formatted for our website.  
+3.) Use jQuery's Ajax method to retrieve the restaurant's menu from https://cdn.rawgit.com/Bumbolio/567f8ed0ac99703fbbe24a64638fcc81/raw/9a0930b07e6b746a76e058ac956e5528aedcfacf/menu.json
+4.) Find the Food cateogry inside the menu data and use `jQuery` to `append` it to the exisiting `div` with the id `foodcontainer`.  
+    a) Use `dot notation` to access the `Food` array inside the data from our json file.  
+    b) Use either a `forEach` or a `for` loop to feed every `Food` object to the `buildTable` function.
+    c) Use `jQuery's` `append` method to append the html table returned by `buildTabled` to the `#foodcontainer` div.
+
+##Bonus
+1.) You may notice that the tables aren't formatted very well.  This is because we need to put a set of two tables in a `section group` div to clear floats between each row of tables.
+    a) Use `jQuery` and modulo operator to create a `<div class="section group">` for each pair of two tables in the `Food` section of our json data.  
+    b) Append these new `section group` divs to the `#foodcontainer` div instead of appending the tables directly.  
+
+    
+
