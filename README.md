@@ -77,7 +77,9 @@ https://css-tricks.com/perfect-full-page-background-image/
 
 Our restaurant's menu is stored in a database on a server.  We need to retrieve the menu data and present it on the website.  
 
-1.) Include the `app.js` file located in the `js` folder to the index.html file.
+1.) Include necessary javacsript files in your index.html file.  
+    a) Include jQuery in your index.html file from `https://code.jquery.com/jquery-1.12.4.min.js`.  
+    b) Include the `app.js` file located in the `js` folder to the index.html file.
 2.) `App.js` includes a function named `buildTable` which takes an object that looks like the following
     ```{
       "name": "Salads",
@@ -112,5 +114,5 @@ Our restaurant's menu is stored in a database on a server.  We need to retrieve 
     a) Use `jQuery` and modulo operator to create a `<div class="section group">` for each pair of two tables in the `Food` section of our json data.  
     b) Append these new `section group` divs to the `#foodcontainer` div instead of appending the tables directly.  
 
-    
+
 
