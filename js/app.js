@@ -13,7 +13,8 @@ $.ajax(menuData).done(function(data) {
         var table = buildTable(foodSection);
         menuRow.push(table);
 
-        if(!(index % 2 === 0)) {
+        //We draw a row of tables after each set of two tables, or if it's the last table.  
+        if(!(index % 2 === 0) || index == (data.Food.length - 1)) {
             var sectionGroup = $('<div class="section group">');
             sectionGroup.append(menuRow);
         
