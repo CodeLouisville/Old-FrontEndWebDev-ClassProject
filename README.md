@@ -114,5 +114,16 @@ Our restaurant's menu is stored in a database on a server.  We need to retrieve 
     a) Use `jQuery` and modulo operator to create a `<div class="section group">` for each pair of two tables in the `Food` section of our json data.  
     b) Append these new `section group` divs to the `#foodcontainer` div instead of appending the tables directly.  
 
+#Week 5 Challenge
+This week we'll be using Git and Github to fork a repository, make changes to a project, and push the changes back to our fork of the repo.
 
+You'll need to install git on your machine in order to proceed.  https://git-scm.com/
 
+1.) Go to https://github.com/CodeLouisville/FrontEndWebDev-ClassProject and fork this project to your own repository by clicking the fork button.  (You must be logged into your github account)
+2.) Click the "Clone or Download" button to get the remote url for your git repo.
+3.) Open the command line and change directory (cd) to the directory where you want to clone the repo to.  
+4.) Issue the git command to clone the remote repo.  
+5.) In index.html, finish the footer section of the site, refer to site.pdf to see what the footer should look like.  
+6.) Use the git command to check the status of your local repo.  Are there any changes?
+7.) Use the git command for commiting changes, be sure to include a useful commit message.  
+8.) Use the git command to push the code to your fork of the original repo.  Go to your fork of the repo on Github to see if your changes persisted.  
