@@ -127,3 +127,19 @@ You'll need to install git on your machine in order to proceed.  https://git-scm
 6.) Use the git command to check the status of your local repo.  Are there any changes?
 7.) Use the git command for commiting changes, be sure to include a useful commit message.  
 8.) Use the git command to push the code to your fork of the original repo.  Go to your fork of the repo on Github to see if your changes persisted.  
+
+#Week 6 Challenge
+"Time to go mobile." - Bane
+
+With a few minor css changes, we can turn our site into a mobile-first, responsive site.  
+
+1.) Since we're going mobile-first, let's adjust the `.span_1_of_2` class to be 100% by default.
+2.) Let's make our site menu list items display block by default and remove the extra margin above the menu.
+3.) Give the .nwsltr-btn and .nwsltr-input the display block property.  Remove any extra margin or padding, the should span the full width of the page.  
+4.) Now add a media query that applies to screens with a minimum width of 994px.  
+5.) Inside the media query give the `.span_1_of_2` class its original width of 49.2%.
+    a) Give the `nav` element a top margin of 4em;
+    b) Reapply our css for the `nav li` elements. (width: 24.95%; max-width: 110px; border-bottom: none; display: inline-block;)
+    c) Give `.nwsltr-input` a width of 70% and float it to the left;
+    d) Give `.nwsltr-btn` a width of 20% and float it to the right;
+6.) Test your site by either shrinking the size of your browser, or using the Device Toolbar in Google Chrome.
