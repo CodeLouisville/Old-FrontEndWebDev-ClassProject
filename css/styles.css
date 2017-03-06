@@ -137,6 +137,10 @@ img {
   text-align: right;
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* ==========================================================================
    HEADER & HERO
    ========================================================================== */
@@ -152,10 +156,6 @@ header {
   color: #FFFFFF;
   text-align: center;
   min-height: 80vh;
-}
-
-nav {
-  margin-top: 4em;
 }
 
 nav::after {
@@ -183,10 +183,8 @@ nav li {
   font-family: 'Roboto Slab', serif;
   font-size: 100%;
   font-weight: 700;
-  width: 24.95%;
-  max-width: 110px;
   border-bottom: none;
-  display: inline-block;
+  display: block;
 }
 
 
@@ -232,7 +230,7 @@ nav a:hover {
 .group { zoom:1; /* For IE 6/7 */ }
 
 .span_1_of_2 {
-  width: 48.2%;
+  width: 100%;
 }
 .span_2_of_2{
   width: 100%;
@@ -316,7 +314,6 @@ input.button:hover {
 }
 
 .nwsltr-input {
-    width: 80%;
     display: block;
     border: 1px solid #c0af8e;
     border-radius: 3px;
@@ -324,7 +321,7 @@ input.button:hover {
     padding: 8px;
     margin: 0 0 10px 0;
     font-size: 100%;
-    float: left;
+    width: 100%;
 }
 
 .nwsltr-btn {
@@ -336,9 +333,8 @@ input.button:hover {
     text-transform: uppercase;
     font-weight: 700;
     height: 40px;
-    width: 18%;
-    margin: 0 0 10px 0;
     float: right;
+    display: block;
 }
 
 .nwsltr-btn:hover {
@@ -387,4 +383,35 @@ input.button:hover {
 footer {
     background-color: #333333;
     color: #F2F2F2;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media screen and (min-width: 994px) {
+  .span_1_of_2 {
+      width: 49.2%;
+  }
+
+  nav {
+    margin-top: 4em;
+  }
+
+  nav li {
+      width: 24.95%;
+      max-width: 110px;
+      border-bottom: none;
+      display: inline-block;
+  }
+
+  .nwsltr-input {
+    width: 70%;
+    float: left;
+  }
+
+  .nwsltr-btn {
+    width: 20%;
+  }
+
 }
