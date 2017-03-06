@@ -143,3 +143,11 @@ With a few minor css changes, we can turn our site into a mobile-first, responsi
     c) Give `.nwsltr-input` a width of 70% and float it to the left;
     d) Give `.nwsltr-btn` a width of 20% and float it to the right;
 6.) Test your site by either shrinking the size of your browser, or using the Device Toolbar in Google Chrome.
+
+#Week 7 Challenge
+Let's add a google map with a pin on our restaurant.  
+
+1.) Find the Map section of the site in index.html.
+2.) Follow the instructions on Google's website to embed google maps on your site. (https://developers.google.com/maps/documentation/javascript/adding-a-google-map)
+
+You can choose to place your pin anywhere on the map. 
